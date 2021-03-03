@@ -4,6 +4,4 @@ function numberWithCommas(x) {
   return parts.join(".");
 }
 
-console.log(numberWithCommas(-5678));
-
 module.exports = numberWithCommas;
